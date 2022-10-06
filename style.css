@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+  height: 100vh;
+  background-image: url(img/bg-pattern-top.svg), url(img/bg-pattern-bottom.svg);
+  background-color: #19A1AE;
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 53vw bottom 33vh, left 50vw top 44vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.conteiner {
+  background-color: white;
+  width: 35em;
+  height: 37.4em;
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.background-img {
+  margin-bottom: 8.5em;
+}
+
+.profile-img {
+  position:absolute;
+  left: 50%;
+  transform: translate(-50%, 100%);
+  border: 5px solid white;
+  border-radius: 50%;
+  width: 9.6em;
+  height: 9.6em;
+  margin: 0;
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1.8em;
+}
+
+.name>h1 {
+  font-family: 'Kumbh Sans';
+  color: #2E3349;
+  font-size: 1.8em;
+  margin: 0;
+  margin-right: 0.5em;
+}
+
+.name>p {
+  font-family: 'Kumbh Sans';
+  color:#6B7082;
+  font-size: 1.8em;
+}
+
+.city {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.3em;
+}
+
+.city>p {
+  font-family: 'Kumbh Sans';
+  margin: 0;
+  font-size: 1.4em;
+  color: #6B7082;
+}
+
+.line {
+  background-color: #E8E9EC;
+  height: 0.01em;
+  margin-top: 2.8em;
+}
+
+.info {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 12px;
+}
+
+.followers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.likes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.photos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.followers>h1, .likes>h1, .photos>h1 {
+  display: inline-block;
+  font-family: 'Kumbh Sans';
+  color: #2E3349;
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 9px;
+}
+
+.followers>span, .likes>span, .photos>span {
+  font-family: 'Kumbh Sans';
+  color: #6B7082;
+  font-size: 10px;
+}
+
+
+
+@media screen and (max-width: 375px) {
+  .conteiner{
+      width: 326px;
+  }
+
+  .profile-img {
+    top: 92px;
+    left: 115px;
+    
+      
+  }
+  
+}
+
+
